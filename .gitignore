@@ -1,0 +1,33 @@
+# --- Godot 4 Specific ---
+.godot/
+*.import
+export_presets.cfg
+# Only ignore the actual build exports
+build/
+
+# --- .NET / C# Specific ---
+bin/
+obj/
+*.sln.cache
+*.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- IDE Specific (VS / Rider / VS Code) ---
+.vs/
+.idea/
+.vscode/
+*.swp
+*.bak
+.DS_Store
+
+# --- Secrets & Config ---
+.env
+secret.json
+*.pfx
+*.publishsettings
+
+# --- Testing ---
+.gdunit/

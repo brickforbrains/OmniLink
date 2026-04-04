@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://bcc5gyxuvx6gc"]
-
-[ext_resource type="Script" uid="uid://7q6myineo7s8" path="res://LogicTester.cs" id="1_3dogw"]
-
-[node name="TestScene" type="Node2D" unique_id=627963788]
-script = ExtResource("1_3dogw")

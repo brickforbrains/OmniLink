@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dat3rjyf5tj8e"]
+
+[ext_resource type="Script" uid="uid://byctvclsp456m" path="res://Scripts/EmitterNode.cs" id="1_eng80"]
+[ext_resource type="Texture2D" uid="uid://cu55qov0l4nc3" path="res://icon.svg" id="2_h46nf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h46nf"]
+size = Vector2(129, 126)
+
+[node name="EmitterNode" type="Area2D" unique_id=2132313306 groups=["Simulation"]]
+script = ExtResource("1_eng80")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=297864148]
+position = Vector2(570, 281)
+texture = ExtResource("2_h46nf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=4330113]
+position = Vector2(570.5, 281)
+shape = SubResource("RectangleShape2D_h46nf")

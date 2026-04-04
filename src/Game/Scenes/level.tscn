@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://xjxkh0qbdmc4"]
-
-[ext_resource type="Script" uid="uid://tu4yuppxbcmm" path="res://PuzzleController.cs" id="1_tumq0"]
-
-[node name="Level" type="Node2D" unique_id=97831566]
-script = ExtResource("1_tumq0")

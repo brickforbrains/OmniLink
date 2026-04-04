@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bcc5gyxuvx6gc"]
+
+[ext_resource type="Script" uid="uid://tu4yuppxbcmm" path="res://Scripts/PuzzleController.cs" id="1_2u58p"]
+[ext_resource type="PackedScene" uid="uid://dat3rjyf5tj8e" path="res://Scenes/Components/emitter_node.tscn" id="2_dv2c3"]
+
+[node name="TestScene" type="Node2D" unique_id=627963788]
+script = ExtResource("1_2u58p")
+
+[node name="EmitterNode" parent="." unique_id=2132313306 instance=ExtResource("2_dv2c3")]
+position = Vector2(-338, -118)
+
+[node name="EmitterNode2" parent="." unique_id=47341442 instance=ExtResource("2_dv2c3")]
+position = Vector2(-103, -117)
